@@ -1,16 +1,17 @@
 ﻿namespace Spector.Console_Libirary
 {
-    public enum MenuOptions
+    public enum YourMenuOptions
     {
         Option1,
         Option2,
         Option3
     }
 
-    public enum ActionOptions
+    public enum YourActionOptions
     {
         Action1,
         Action2,
         Action3
     }
+
 }
