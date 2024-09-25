@@ -6,11 +6,11 @@ namespace Spector.Console_Libirary
     {
         static void Main(string[] args)
         {
-            MenuOptions mainMenuOption = MenuHandler.DisplayMenu<MenuOptions>("Main Menu");
+            YourMenuOptions mainMenuOption = MenuHandler.DisplayMenu<YourMenuOptions>("Main Menu");
             AnsiConsole.MarkupLine($"You selected main menu option: [yellow]{mainMenuOption}[/]");
             //Console.WriteLine($"You selected main menu option: {mainMenuOption}");
 
-            ActionOptions actionMenuOption = MenuHandler.DisplayMenu<ActionOptions>("Action Menu");
+            YourActionOptions actionMenuOption = MenuHandler.DisplayMenu<YourActionOptions>("Action Menu");
             AnsiConsole.MarkupLine($"You selected action menu option: [yellow]{actionMenuOption}[/]");
             //Console.WriteLine($"You selected main menu option: {actionMenuOption}");
 
