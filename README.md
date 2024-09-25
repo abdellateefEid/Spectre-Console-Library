@@ -17,4 +17,4 @@ This project demonstrates how to use the **Spectre.Console** library 🎨 to cre
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/abdellateefEid/Spectre-Console-Library.git
